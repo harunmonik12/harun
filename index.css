@@ -1,0 +1,87 @@
+#header{
+    width:100% ;
+    height: 100px;
+    background-color: blueviolet;
+}
+#menu-baru{
+    width: 100%;
+    height: 100px;
+    background-color: skyblue;
+}
+#daftar-menu{
+    display:inline-flex;
+}
+.daftar-menu{
+    width: 120px;
+    
+    
+}  
+.daftar-menu:hover{
+    background-color: yellow;
+    
+}
+    
+#buka{
+    display: none;
+}
+#klik:hover #buka{
+    display: block;
+}
+.sub-artikel:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+  
+}
+.sub-artikel{
+    list-style:none;
+    margin-left: -20px;
+    padding-top: 5px; 
+}
+.daftar-menu{
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    height: 2000px;
+    background-color: gray;
+    display: flex;
+ 
+}
+#side-kiri{
+    width: 30%;
+    height: 400px;
+    background-color: crimson;
+}
+#sisi-tengah{
+    width: 100%;
+    height: 1000px;
+    background-color: chartreuse;
+}
+#side-kanan{
+    width:70%;
+    width:70%;
+    height: 400px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-wrap: wrap;
+    
+}
+.foto{
+    width: 250px;
+    height: 170px;
+    background-color: gold;
+}
+#yt{
+    width: 100%;
+    height: 400px;
+}
+#side-kiri{
+    width: 5%;
+    height: 10px;
+}
+
+    
